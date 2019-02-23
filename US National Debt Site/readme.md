@@ -12,7 +12,7 @@ This site contains a time-dependent counter
 * [JavaScript](https://www.javascript.com/) - programming language
 * [CSS](https://www.w3.org/Style/CSS/) - style sheet language
 
-## Authors
+## Author
 
 * **Maxim Shakura** - [M2000h](https://github.com/M2000h)
 
