@@ -1,22 +1,33 @@
-<html><head>
-<script>
-function f(){document.getElementById('n').innerHTML = (-6796387656017 + new Date().getTime() * 18.587962963).toString().substr(0,14).replace(/\B(?=(\d{3})+(?!\d))/g, ",");}
-</script>
-<style>
-.c {position: relative;margin:0;}
-.c img {position: absolute;}
-.c b{
-font-family: 'Roboto Condensed', sans-serif;
-letter-spacing: 0.5vw;	
-color: #dc2e2f;
-background-color: #d1d9d7;
-font-size: 5.5vw;
-position: absolute;
-width: 60%;
-margin-top: 24.5%;
-margin-left: 23%;}
-</style></head>
-<body  class="c" onload="f(),setInterval(f, 10)">
-<img src="http://max2000turbo.pythonanywhere.com/d.jpg" width="100%">
-<b><i id="n"></i></b>
-</body></html>
+<html>
+  <head>
+    <script>
+      function f(){
+        document.getElementById('n').innerHTML = (-6796387656017 + new Date().getTime() * 18.587962963).toString().substr(0,14).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+    </script>
+    <style>
+      .c {
+        position: relative;
+        margin:0;
+      }
+      .c img {
+        position: absolute;
+      }
+      .c b{
+        font-family: 'Roboto Condensed', sans-serif;
+        letter-spacing: 0.5vw;	
+        color: #dc2e2f;
+        background-color: #d1d9d7;
+        font-size: 5.5vw;
+        position: absolute;
+        width: 60%;
+        margin-top: 24.5%;
+        margin-left: 23%;
+      }
+    </style>
+  </head>
+  <body  class="c" onload="f(),setInterval(f, 10)">
+    <img src="http://max2000turbo.pythonanywhere.com/d.jpg" width="100%">
+    <b><i id="n"></i></b>
+  </body>
+</html>
