@@ -1,4 +1,4 @@
-# Websimple site with counter
+# Simple website with counter
 
 This site contains a time-dependent counter
 
