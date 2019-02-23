@@ -16,8 +16,6 @@ This site contains a time-dependent counter
 
 * **Maxim Shakura** - [M2000h](https://github.com/M2000h)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://opensource.org/licenses/MIT) file for details
