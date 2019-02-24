@@ -4,7 +4,7 @@ This site contains a time-dependent counter
 
 ### Link on working site
 
-[Here](http://217.23.139.199/USdebt)
+[Here](http://217.23.139.199/USAdebt)
 
 ## Built With
 
