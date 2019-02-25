@@ -22,4 +22,4 @@ answer:
 
 ## Link on working bot
 
-(Here)[https://vk.com/im?sel=-146168940] - You must be authenticated on vk.com to use it
+[Here](https://vk.com/im?sel=-146168940) - You must be authenticated on vk.com to use it
