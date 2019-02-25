@@ -1,0 +1,5 @@
+token = <TYPE HERE SECRET ACCESS TOKEN>
+
+group_id = <TYPE HERE GROUP ID>
+
+confirmation_token = <TYPE HERE CONFIRAMTION TOKEN>
