@@ -26,4 +26,4 @@ Answer:
 
 ### How can I use it?
 
-You can run your own bot on vk.com using all ```pyfiles or use only``` functions ```get_answer```,```goprint```, ```paint``` and ```zero``` to covert the text only in program 
+You can run your own bot on vk.com using all ```pyfiles``` or use only functions ```get_answer()```,```goprint()```, ```paint()``` and ```zero()``` to covert the text only in program 
