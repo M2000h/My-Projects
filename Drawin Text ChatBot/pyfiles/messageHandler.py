@@ -565,12 +565,13 @@ def printA(h,n, x, y,l):
 
 def goprint(l):
     y = 0
-    l-=2
-    arg=0
-    arg_cc=0
-    lmax=l
-    lmin=0
-    txt = '[club146168940|'
+    l -= 2
+    arg = 0
+    arg_cc = 0
+    lmax = l
+    lmin = 0
+    txt = ''
+    #txt = '[club146168940|'
     while y < 12:
         x = lmin
         while x < lmax:
@@ -593,11 +594,11 @@ def goprint(l):
             else:
                  txt+='─'
             if y==0 and lmin==0 and x==8:
-                txt+=']'
+                #txt+=']'
                 arg_cc=1
             x+=2
         if y==0 and lmin==0 and arg_cc==0:
-                txt+=']'
+                #txt+=']'
         y = y + 2
         if y==12 and arg:
             y=0
