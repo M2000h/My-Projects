@@ -20,6 +20,10 @@ def processing():
     if data['type'] == 'confirmation':
         if data["group_id"] == <TYPE HERE GROUP_ID HERE>:
             return <TYPE HERE SECRET API KEY>
+    elif data['type'] == 'message_new':
+        if data["group_id"]== <TYPE HERE GROUP_ID HERE>:
+            messageHandler.create_answer(data['object'], token)
+            return 'ok'
 
 
     #######################################################################################################################################################
