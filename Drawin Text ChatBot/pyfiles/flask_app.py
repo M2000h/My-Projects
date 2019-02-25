@@ -18,10 +18,10 @@ def processing():
     if 'type' not in data.keys():
         return 'not vk'
     if data['type'] == 'confirmation':
-        if data["group_id"] == <TYPE HERE GROUP_ID HERE>:
-            return <TYPE HERE SECRET API KEY>
+        if data["group_id"] == group_id:
+            return confirmation_token
     elif data['type'] == 'message_new':
-        if data["group_id"]== <TYPE HERE GROUP_ID HERE>:
+        if data["group_id"]== group_id:
             messageHandler.create_answer(data['object'], token)
             return 'ok'
 
