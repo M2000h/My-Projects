@@ -32,7 +32,7 @@ You can run your own bot on vk.com using all ```pyfiles``` or use only functions
 
 If you want run bot on [vk.com](vk.com) you should set a ```token```, ```group_id ``` and ```confirmation_token``` in ```settings.py``` on your group values and run this FlaskApp on your server.
 
-If you want use it only as text converter, copy only ```get_answer(body)``` (where ```body``` - text that you convert) from ```messageHandler.py``` and ather functions which calles from ```get_answer(body)```
+If you want use it only as text converter, copy only ```get_answer(body)``` (where ```body``` - text that you convert) from ```messageHandler.py``` and other functions which calles from ```get_answer(body)```
 
 ## Author
 
