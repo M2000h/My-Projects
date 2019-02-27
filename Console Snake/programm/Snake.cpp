@@ -6,6 +6,7 @@
 using namespace std;
 
 HANDLE hOCol = GetStdHandle(STD_OUTPUT_HANDLE);
+
 #define BOARD_SIZE 10
 
 #define SNAKE_BODY_CHAR 219
@@ -29,6 +30,7 @@ void main()
 	system("title SNAKE");
 	CONSOLE_FONT_INFOEX cfi;
 	wcscpy_s(cfi.FaceName, L"consolas");
+	SetConsoleTextAttribute(hOCol, BACK_GROUND_COLOR);
 	srand(43);
 	do 
 	{
@@ -38,7 +40,7 @@ void main()
 
 int start() {
 	POINT SnakeBody[100], Cookie;
-	SetConsoleTextAttribute(hOCol, BACK_GROUND_COLOR);
+	
 	system("cls");
 	int SnakeLenght = 3;
 	int n = 100;
@@ -51,7 +53,7 @@ int start() {
 	Cookie.y = rand() % BOARD_SIZE;
 	int direction = 0,
 		q = 0;
-	for (;;)
+	while(true)
 	{
 		if (_kbhit())
 		{
@@ -70,7 +72,7 @@ int start() {
 			Cookie.x = rand() % BOARD_SIZE;
 			Cookie.y = rand() % BOARD_SIZE;
 		}
-		
+
 
 		for (int a = SnakeLenght; a > 0; a--)
 		{
@@ -82,22 +84,22 @@ int start() {
 			q = direction;//chek1
 		switch (q) {
 		case 72://вниз
-			SnakeBody[0].y = SnakeBody[0].y == 0 ? BOARD_SIZE - 1 : SnakeBody[0].y - 1;
+			SnakeBody[0].y = SnakeBody[0].y ? --SnakeBody[0].y : BOARD_SIZE - 1;
 			break;
 		case 80://вверх
-			SnakeBody[0].y = SnakeBody[0].y == BOARD_SIZE - 1 ? 0 : SnakeBody[0].y + 1;
+			SnakeBody[0].y = SnakeBody[0].y == BOARD_SIZE - 1 ? 0 : ++SnakeBody[0].y;
 			break;
 		case 77://впрао
-			SnakeBody[0].x = SnakeBody[0].x == BOARD_SIZE - 1 ? 0 : SnakeBody[0].x + 1;
+			SnakeBody[0].x = SnakeBody[0].x == BOARD_SIZE - 1 ? 0 : ++SnakeBody[0].x;
 			break;
 		case 75://влево
-			SnakeBody[0].x = SnakeBody[0].x == 0 ? BOARD_SIZE - 1 : SnakeBody[0].x - 1;
+			SnakeBody[0].x = SnakeBody[0].x ? --SnakeBody[0].x : BOARD_SIZE - 1;
 			break;
 		}
-		
+
 		direction = q;
 		//конец стрелок
-		
+
 		for (int a = 1; a < SnakeLenght - 1 && SnakeLenght > 4; a++)
 			if (SnakeBody[0].x == SnakeBody[a].x && SnakeBody[0].y == SnakeBody[a].y)
 				return SnakeLenght;
@@ -105,10 +107,9 @@ int start() {
 		if (SnakeLenght < 20)
 			n = 100 - SnakeLenght * 4;
 		Sleep(n);
-		print(SnakeBody,Cookie, SnakeLenght);
+		print(SnakeBody, Cookie, SnakeLenght);
 	}
 }
-
 
 bool check() {
 	while (true)
@@ -142,7 +143,7 @@ void print(POINT *SnakeBody, POINT Cookie,int SnakeLenght)
 {
 	gotoxy(SnakeBody[1].x, SnakeBody[1].y, SNAKE_BODY_COLOR, SNAKE_BODY_CHAR); //переход тулвищав голову
 	 
-	gotoxy(SnakeBody[SnakeLenght - 1].x, SnakeBody[SnakeLenght - 1].y, BACK_GROUND_COLOR, 0); //удаление жопы
+	gotoxy(SnakeBody[SnakeLenght - 1].x, SnakeBody[SnakeLenght - 1].y, BACK_GROUND_COLOR, BACK_GROUND_CHAR); //удаление жопы
 
 	gotoxy(Cookie.x, Cookie.y, COOKIE_COLOR, COOKIE_CHAR);//печеньак
 
