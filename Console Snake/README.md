@@ -3,7 +3,7 @@
 
 This is simple Snake-Game in Console
 
-![alt text]("https://shakura.dev/pic/snake.jpg")
+![alt text](https://shakura.com/pic/snake.jpg)
 
 ## Installing
 
