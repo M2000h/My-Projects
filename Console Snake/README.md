@@ -1,7 +1,7 @@
 
 # Console Snake
 
-This is simple Snake-Game on Console
+This is simple Snake-Game in Console
 
 ## Installing
 
