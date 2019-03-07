@@ -3,7 +3,7 @@
 
 This is simple Snake-Game in Console
 
-<img src="https://pp.userapi.com/c850620/v850620572/d5d2a/X0akWwEo5v8.jpg" width="40%">
+<img src="https://pp.userapi.com/c850536/v850536508/d128b/PmlJw-ZLQgo.jpg" width="40%">
 
 ## Installing
 
