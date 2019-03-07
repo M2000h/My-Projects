@@ -2,7 +2,7 @@
 # Console Snake
 
 This is simple Snake-Game in Console
-[](https://shakura.dev/pic/snake.jpg)
+![alt text](https://shakura.dev/pic/snake.jpg)
 ## Installing
 
 For simplicity, there is only cpp file, so you can easy copy it and paste
