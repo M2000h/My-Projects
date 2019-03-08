@@ -9,6 +9,10 @@ This is simple Snake-Game in Console
 
 For simplicity, there is only cpp file, so you can easy copy it and paste
 
+## Built With
+
+* [C++](https://isocpp.org/) - programming language
+
 ## Author
 
 * **Maxim Shakura** - [M2000h](https://github.com/M2000h)
