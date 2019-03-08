@@ -26,7 +26,7 @@ Answer:
 
 ### How can I use it?
 
-You can run your own bot on vk.com using all ```pyfiles``` or use only functions in file ```messageHandler.py``` to covert the text only in program
+You can run your own bot on vk.com using all ```pyfiles``` or use only functions in file ```messageHandler.py``` to convert the text only in program
 
 ## Istalling
 
