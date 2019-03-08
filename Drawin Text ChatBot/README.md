@@ -34,6 +34,12 @@ If you want to run bot on [vk.com](vk.com) you should set a ```token```, ```grou
 
 If you want to use it only as text converter, copy only ```get_answer(body)``` (where ```body``` - text that you convert) from ```messageHandler.py``` and other functions which calles from ```get_answer(body)```
 
+## Built With
+
+* [Python](https://www.python.org/) - programming language
+* [Flask](http://flask.pocoo.org/) - Python Microframework
+* [VK API](https://vk.com/dev/methods) - vk.com API
+
 ## Author
 
 * **Maxim Shakura** - [M2000h](https://github.com/M2000h)
