@@ -4,7 +4,7 @@ This site contains a time-dependent counter
 
 ### Link on working site
 
-[Here](https://shakura.dev/USAdebt)
+[shakura.dev/USAdebt](https://shakura.dev/USAdebt)
 
 ## Built With
 
