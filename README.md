@@ -1,6 +1,6 @@
 # My Projects
 
-This is a repository with my developers projects. For simplicity there is only main files, so you can easy copy it and paste.
+This is a repository with my development projects. For simplicity there is only main files, so you can easy copy it and paste.
 
 ## List of projects
 
