@@ -7,8 +7,11 @@ Download ```main.py``` on your server. Сhange Bot's token and your user id to c
 
 ## Running
 Run ```main.py``` with Python3:
+
 ```python3 main.py```
+
 Or use ```screen``` to run in background:
+
 ```screen -dmS ServerBot python3 bot.py```
 
 ## Built With
