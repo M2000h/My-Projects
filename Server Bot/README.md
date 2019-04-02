@@ -12,7 +12,7 @@ Run ```main.py``` with Python3:
 
 Or use ```screen``` to run in background:
 
-```screen -dmS ServerBot python3 bot.py```
+```screen -dmS ServerBot python3 main.py```
 
 ## Built With
 
