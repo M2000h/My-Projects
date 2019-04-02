@@ -1,4 +1,4 @@
-# Bot which helps runs simple commands on server
+# Bot which helps runs simple commands on your server
 This bot runs on server and runs commands that are sent to him. This will allow you not to run ssh connection when you need run simple command or check your server status.
 
 ## Installing
