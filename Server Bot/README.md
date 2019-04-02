@@ -17,7 +17,7 @@ Or use ```screen``` to run in background:
 ## Built With
 
 * [Python](https://www.python.org/) - programming language
-* [Telegram Bot API](https://core.telegram.org/api#bot-api) - Telegram API for bots
+* [Telegram Bot API](https://core.telegram.org/api#bot-api) - Telegram API for chat bots
 
 ## Author
 
