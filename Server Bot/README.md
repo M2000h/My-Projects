@@ -1,6 +1,9 @@
 # Bot which helps runs simple commands on your server
 This bot runs on server and runs commands that are sent to him. This will allow you not to run ssh connection when you need run simple command or check your server status.
 
+
+<img src="https://habrastorage.org/webt/tv/vk/iu/tvvkiuj2rrkdlh4opt_yee-uds4.jpeg"  width="50%"/>
+
 ## Installing
 Create new Telegram bot. Get the token of new bot and your Telegram ID.
 Download ```main.py``` on your server. Сhange Bot's token and your user id to correct value. Install the required packages if necessary. 
