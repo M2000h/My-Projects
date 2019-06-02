@@ -4,11 +4,11 @@ This is a repository with my development projects. For simplicity there is only 
 
 ## List of projects
 
-* [Beep Program](https://github.com/M2000h/My-Projects/tree/master/BeepProgram) - simple c# program wich plays a simle melody
-* [Console Snake](https://github.com/M2000h/My-Projects/tree/master/Console%20Snake) - simple c++ game in console app
-* [Drawin Text ChatBot](https://github.com/M2000h/My-Projects/tree/master/Drawin%20Text%20ChatBot) - chatbot that converts text to letter-wide text, in which each letter consists of several characters
-* [Server Bot](https://github.com/M2000h/My-Projects/tree/master/Server%20Bot) - Chat-Bot which runs the commands you send on server
-* [US national debt](https://github.com/M2000h/My-Projects/tree/master/US%20National%20Debt%20Site) - simple website with counter
+* [Beep Program](/BeepProgram) - simple c# program wich plays a simle melody
+* [Console Snake](/Console%20Snake) - simple c++ game in console app
+* [Drawin Text ChatBot](/Drawin%20Text%20ChatBot) - chatbot that converts text to letter-wide text, in which each letter consists of several characters
+* [Server Bot](/Server%20Bot) - Chat-Bot which runs the commands you send on server
+* [US national debt](/US%20National%20Debt%20Site) - simple website with counter
 
 ## Author
 
