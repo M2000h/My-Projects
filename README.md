@@ -9,6 +9,7 @@ This is a repository with my development projects. For simplicity there is only 
 * [Drawin Text ChatBot](/Drawin%20Text%20ChatBot) - chatbot that converts text to letter-wide text, in which each letter consists of several characters
 * [Server Bot](/Server%20Bot) - Chat-Bot which runs the commands you send on server
 * [US national debt](/US%20National%20Debt%20Site) - simple website with counter
+* [Simple nerual network](/simple_nn) - Nerual network for dots classification
 
 ## Author
 
